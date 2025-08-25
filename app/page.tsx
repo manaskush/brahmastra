@@ -2,6 +2,7 @@ import Image from "next/image";
 import Lightning from "./Lightning/Lightning";
 import Header from "@/components/header";
 import CardShowdown from "@/components/CardShowdown";
+import JourneyToFitness from "@/components/journey";
 
 export default function Home() {
   return (
@@ -28,9 +29,8 @@ export default function Home() {
         <div className="">
           <CardShowdown />
         </div>
-        <div className="p-8">
-          <h2>Section 2</h2>
-          <p>More content here.</p>
+        <div className="">
+         <JourneyToFitness />
         </div>
         {/* Add more sections as needed */}
       </section>

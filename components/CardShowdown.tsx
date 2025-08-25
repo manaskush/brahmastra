@@ -1,4 +1,5 @@
 "use client"
+import BlurText from "./BlurText/BlurText";
 import TiltedCard from "./TiltedCard/TiltedCard";
 
 const cardData = [
@@ -33,13 +34,26 @@ const cardData = [
     captionText: "Boxing",
   },
 ];
+ const handleAnimationComplete = () => {
+  console.log('Animation completed!');
+};
 
 const CardShowdown = () => {
   return (
-    <div className="py-16 bg-white">
-      {/* <h2 className="text-center text-3xl font-bold text-red-700 mb-12">
-        OUR SERVICES
-      </h2> */}
+    <div className="py-16 bg-grey-950">
+      <div className="flex justify-center items-center w-full mb-12">
+  <h2 className="text-blue-700 font-bold text-center">
+    <BlurText
+      text="Our Services!"
+      delay={150}
+      animateBy="words"
+      direction="top"
+      onAnimationComplete={handleAnimationComplete}
+      className="text-6xl md:text-8xl mb-8"
+    />
+  </h2>
+</div>
+     
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 justify-items-center">
         {cardData.map((card, index) => (
