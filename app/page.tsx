@@ -5,6 +5,8 @@ import CardShowdown from "@/components/CardShowdown";
 import JourneyToFitness from "@/components/journey";
 import TeamSection from "@/components/Team";
 import GallerySection from "@/components/gallery";
+import TestimonialsComponent from "@/components/testimonial";
+import FooterComponent from "@/components/footer";
 
 export default function Home() {
   return (
@@ -39,6 +41,12 @@ export default function Home() {
         </div>
         <div className="">
          <GallerySection />
+        </div>
+        <div className="">
+         <TestimonialsComponent />
+        </div>
+        <div className="">
+         <FooterComponent />
         </div>
         {/* Add more sections as needed */}
       </section>
