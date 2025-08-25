@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Lightning from "./Lightning/Lightning";
 import Header from "@/components/header";
+import CardShowdown from "@/components/CardShowdown";
 
 export default function Home() {
   return (
@@ -24,9 +25,8 @@ export default function Home() {
       {/* Other Sections (Content Below Hero) */}
       <section className="flex-grow">
         {/* Other content like text, images, etc. */}
-        <div className="p-8">
-          <h2>Section 1</h2>
-          <p>Some content here.</p>
+        <div className="">
+          <CardShowdown />
         </div>
         <div className="p-8">
           <h2>Section 2</h2>
