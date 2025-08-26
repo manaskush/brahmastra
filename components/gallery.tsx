@@ -7,7 +7,7 @@ const GallerySection = () => {
       <div className="max-w-screen-xl mx-auto text-center mb-12">
         <h2 className="text-4xl font-bold mb-4">Gallery</h2>
         <p className="text-gray-400">
-          A rolling showcase of our latest moments, events, and achievements at BrahmAstra.
+          A Rolling showcase of our latest moments, events, and achievements at BrahmAstra.
         </p>
       </div>
 
