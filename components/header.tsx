@@ -16,12 +16,12 @@ const Header = () => {
       <div className="flex justify-between items-center max-w-screen-xl mx-auto">
         {/* Logo */}
         <Link href="/">
-          <div className="w-20 h-20 rounded-full overflow-hidden">
+          <div className="w-24 h-24 rounded-full overflow-hidden">
             <Image
               src="/logo.png"
               alt="BrahmAstra Logo"
-              width={80} // Increased logo size
-              height={80} // Increased logo size
+              width={120} // Increased logo size
+              height={120} // Increased logo size
               className="object-cover"
             />
           </div>
@@ -38,13 +38,16 @@ const Header = () => {
         <nav className="hidden lg:flex space-x-8 text-lg">
           <ul className="flex space-x-8 text-lg">
             <li>
-              <Link href="/" className="hover:text-blue-400 transition-colors duration-300">Home</Link>
+              <Link href="/" className="text-blue-400 hover:text-white font-bold transition-colors duration-300">Home</Link>
             </li>
             <li>
-              <Link href="/about" className="hover:text-blue-400 transition-colors duration-300">About</Link>
+              <Link href="/about" className="text-blue-400 hover:text-white font-bold transition-colors duration-300">About</Link>
             </li>
             <li>
-              <Link href="/contact" className="hover:text-blue-400 transition-colors duration-300">Contact</Link>
+              <Link href="/contact" className="text-blue-400 hover:text-white font-bold transition-colors duration-300">Contact</Link>
+            </li>
+            <li>
+              <Link href="/packages" className="text-blue-400 hover:text-white font-bold  transition-colors duration-300">Packages</Link>
             </li>
           </ul>
         </nav>
