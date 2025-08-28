@@ -36,7 +36,14 @@ const teamMembers = [
 const TeamSection = () => {
   return (
     <section className="py-20 bg-gray-900 text-white px-4 md:px-20">
-      <h2 className="text-center text-4xl font-bold mb-12">Meet Our Team</h2>
+      <h2 className="text-center text-6xl md:text-8xl lg:text-9xl font-bold mb-16 text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-blue-300 to-blue-500 relative">
+  Meet Our Expert Team
+  <div className="absolute inset-0 blur-2xl opacity-30 pointer-events-none">
+    <span className="text-blue-400 font-bold text-6xl md:text-8xl lg:text-9xl">
+      Meet Our Expert Team
+    </span>
+  </div>
+</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10">
         {teamMembers.map((member, index) => (
           <ProfileCard
