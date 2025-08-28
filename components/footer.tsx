@@ -167,7 +167,7 @@ const FooterComponent: React.FC = () => {
                     <div className="absolute inset-0 bg-blue-400 rounded-full opacity-20 animate-pulse-ring"></div>
                   </div>
                   <h3 className="text-3xl font-bold ml-3 text-gradient-lightning">
-                    FitLightning
+                    BrahmAstra
                   </h3>
                 </div>
                 <p className="text-gray-400 leading-relaxed mb-6">
@@ -307,7 +307,7 @@ const FooterComponent: React.FC = () => {
             <div className="max-w-7xl mx-auto px-4 py-6">
               <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
                 <div className="text-gray-400 text-sm">
-                  © 2024 FitLightning Gym. All rights reserved. Unleash your potential.
+                  © 2024 BrahmAstra Gym. All rights reserved. Unleash your potential.
                 </div>
                 
                 <div className="flex items-center space-x-6">
